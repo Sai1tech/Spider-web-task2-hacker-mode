@@ -1,0 +1,159 @@
+*{
+	font-size: 20px;
+	box-sizing: border-box;
+	margin: 0 1px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.content {
+	height: 470px
+	width: 100%;
+	background-color: powderblue;
+}
+
+#resulttext {
+	text-align: center;
+	width: 80%;
+	height: 50px;
+	margin: 10px auto;
+	color: darkblue;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+nav {
+	height: 125px;
+	width: 100%;
+	background: url("darkcovid1.jpg") no-repeat;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+.correct {
+	background-color: green;
+}
+
+.wrong {
+	background-color: red;
+}
+
+h1 {
+	text-align: center;
+	color:white;
+	font-size: 3.1em;
+	font-weight: normal;
+}
+
+.qcontainer{
+	height: 460px;
+	position: relative;
+	margin: 15px auto;
+	color: #659dbd;
+	width: 70vw;
+}
+
+.questn{
+	border-bottom: 1px solid black;
+	height: 25%;
+	margin: 5px auto;
+	text-align: center;
+	padding: 25px;
+	font-size: 1.3em;
+	color: navy;
+}
+
+.option {
+	height: 50px;
+	margin: 20px auto;
+	padding-top: 8px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #8C756A;
+}
+
+.option:hover{
+	border-bottom: 2px solid #1AC8DB;
+	box-shadow: 5px 2px 5px 2px;
+}
+
+.choice {
+	color: white;
+}
+
+.correct {
+	background-color: green;
+}
+
+.wrong {
+	background-color: red;
+}
+
+#prev{
+	position: absolute;
+	bottom: 8px;
+	left: 3px;
+	font-size: 1.2em;
+	width: 110px;
+	background-color: #5cbdb9;
+	cursor: pointer;
+}
+
+#next{
+	position: absolute;
+	bottom: 8px;
+	right: 3px;
+	font-size: 1.2em;
+	width: 110px;
+	background-color: #5cbdb9;
+	cursor: pointer;
+}
+
+#img {
+	background: url("thankyou.gif") no-repeat;
+	width: 370px;
+	height: 300px;
+	margin: 5px auto;
+}
+
+#resulttext {
+	text-align: center;
+	width: 80%;
+	height: 50px;
+	margin: 10px auto;
+	color: darkblue;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 4em;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#submit{
+	position: absolute;
+	bottom: 8px;
+	right: 3px;
+	font-size: 1.2em;
+	width: 110px;
+	background-color: tomato;
+	cursor: pointer;
+}
+
+footer {
+	background: url("darkcovid2.jpg") no-repeat;
+	height: 125px;
+	margin: 15px 0 0px 0;
+	padding-top: 30px;
+}
+
+.wear{
+	height: 50px;
+	text-transform: capitalize;
+	color: white;
+	margin-left: 50px;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
