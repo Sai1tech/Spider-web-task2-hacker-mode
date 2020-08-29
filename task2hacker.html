@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylefortask2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/5946c386be.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+	<title>Basic mode Quiz on Covid-19</title>
+</head>
+<body>
+    <div class="startcontainer">
+        <div id="content" class="flex-column flex-center">
+            <h1 class="ready">Are you ready? 👍</h1>
+            <input type="text" name="name" id="name" placeholder="Type your name">
+            <div class="button"><button class="start">START QUIZ</button></div>
+        </div>
+    </div>
+
+
+
+
+
+<div class="quiz">
+     <!--************************ Start of NAVBAR ************************-->
+    <nav>
+        <div class="titlecontainer">
+            <h1 id="end">Quiz on Covid-19</h1>
+        </div>
+    </nav>
+    <!--************************ End of NAVBAR ************************-->
+
+
+
+    <div class="contentcontainer">
+            <!--********************** Start of Questions **********************-->
+        <div class="qcontainer">
+            <div class="questn"></div>
+            <div>
+                <div class="option">
+                <p class="choice" id="a" data-number="1"></p>
+            </div>
+            <div class="option">
+                <p class="choice" id="b" data-number="2"></p>
+            </div>
+            <div class="option">
+                <p class="choice" id="c" data-number="3"></p>
+            </div>
+            <div class="option">
+                <p class="choice" id="d" data-number="4"></p>
+            </div>
+            </div>
+            <button id="prev" onclick="prev();"><<-Prev</button>
+            <button id="next" onclick="next();">Next->></button>
+            <button id="submit">Submit</button>
+        </div>
+    <!--*********************** End of Questions ***********************-->
+
+    <div class="sidenav">
+        <p class="timer"></p>
+            <div class="test"><div class="qnnumber" data-question="1">1</div></div>
+            <div class="test"><div class="qnnumber" data-question="2">2</div></div>
+            <div class="test"><div class="qnnumber" data-question="3">3</div></div>
+            <div class="test"><div class="qnnumber" data-question="4">4</div></div>
+            <div class="test"><div class="qnnumber" data-question="5">5</div></div>
+            <div class="test"><div class="qnnumber" data-question="6">6</div></div>
+            <div class="test"><div class="qnnumber" data-question="7">7</div></div>
+            <div class="test"><div class="qnnumber" data-question="8">8</div></div>
+            <div class="test"><div class="qnnumber" data-question="9">9</div></div>
+            <div class="test"><div class="qnnumber" data-question="10">10</div></div>
+            <div class="test"><div class="qnnumber" data-question="11">11</div></div>
+            <div class="test"><div class="qnnumber" data-question="12">12</div></div>
+            <div class="answered"><p id="correct"></p>Correctly Answered Questions</div>
+            <div class="incorrect"><p id="incorrect"></p>Incorrect Questions</div>
+            <div class="unanswered"><p id="undone"></p>Unanswered</div>
+    </div>
+
+    <div class="resultcontainer">
+        <div id="resulttext"></div>
+         <div class="highscore">High Score <i class="fas fa-crown"></i></div>
+         <div class="playerdetails"></div>
+         <div id="img"></div>
+     </div>
+
+</div>
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="wear">
+            <p>Wear A Mask. Save A Life</p>
+        </div>
+    </footer>
+   
+</div>
+
+
+     
+
+
+
+
+
+
+
+    <!--*********************** Start of Footer ***********************-->
+    
+    <!--************************ End of Footer ************************-->
+
+    <script src="script.js"></script>
+</body>
+</html>
