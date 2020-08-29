@@ -1,0 +1,182 @@
+1. How long does the novel coronsvirus survive outside the body?
+{
+	.A week in the aur and on surfaces
+	.Several hours to days (ans)
+	.Up to a two and a half weeks
+}
+
+2. What's more important for preventing infection?
+{
+	.Frequent hand-washing (ans)
+	.Wearing a face mask
+}
+
+3. What precentage of people confirmed to have Covid-19 develop mild or moderate symptoms?
+{
+	.20%
+	.40%
+	.80% (ans)
+}
+
+4. What a fomite?
+{
+	. A hospital-grade disinfectant
+	. A contaminated object or surface (ans)
+	. A disease carrier
+	. An immunity-boosting supplement
+}
+
+5. What's safe distance to stay apart from someone who's sick?
+{
+	. At least 1 foot (30 cm)
+	. At least 3 feet (1 meter) (ans)
+}
+
+6. Markets reacted to the outbreak with a huge increase in volatility. What was the record set in March by the sell-off in U.S. stocks?
+{
+	.Fatest-ever 20% drop (ans)
+	.Record low level
+	.Longest market closure
+	.Most delistings
+}
+
+7.How much money have the world's governments and central banks pledged in stimulus to counter the economic shock of the virus?
+{
+	.$1 trillion
+	.Almost $2 trillion
+	.At least $3 trillion (ans)
+}
+
+8. How soon can a vaccine for Covid-19 be commercially available?
+{
+	.At least 12 months (ans)
+	.Around 16 weeks
+}
+
+9. Who's at highest risk of developing severe Covid-19 disease?
+{
+choose 2
+	.Children
+	.People over 60 years of age (ans)
+	.Pregnant women
+	.Those with existing medical conditions (ans)
+}
+
+10. Can my dog give me Covid-19?
+{
+	.Yes
+	.No (ans)
+}
+
+11. What does Covid-19 stand for?
+{
+	. It's a term for coronavirus disease 19, because it's the 19th strain of coronavirus discovered
+	.It's a term that stands for coronavirus disease 2019, the year it was first identified (ans)
+}
+
+12. What other viruses belong the coronavirus family?
+{
+	.SARS and influenza
+	.SARS and MERS (ans)
+	.SARS and HIV
+}
+
+13. A vaccine stumulates your immune system to produce antibodies, like it would if you were exposed to the virus.
+{
+	.True (ans)
+	.False
+}
+
+14. There are currently vaccines for the following coronaviruses:
+{
+	.SARS
+	.MERS
+	.SARS and MERS
+	.None of the above (ans)
+}
+
+15. How many vaccine candidates for Covid-19 have been proposed?
+{
+	.25
+	.100
+	.120+ (ans)
+}
+
+16. The virus is mutating rapidly.
+{
+	.True
+	.False (ans)
+}
+
+17. How does weather seem to affect novel coronavirus?
+{
+	.The virus can't survive in hot, humid climates
+	.Cold temperaturs can kill the virus
+	.It is not yet known (ans)
+}
+
+18. Currently, which group has had more severe effects of Covid-19?
+{
+	.Men (ans)
+	.Women
+}
+
+19. Covid-19 has currently been detected on all seven continents.
+{
+	.True
+	.False (ans)
+}
+
+
+
+
+function checkanswer1() {
+	var selectedanswer = document.getElementById('a');
+	if(selectedanswer.innerText===qn[i].ans)
+		classtoapply= 'correct';
+	else
+		classtoapply= 'wrong';
+
+	document.getElementById('opt1').classList.add(classtoapply);
+}
+
+function checkanswer2() {
+	var selectedanswer = document.getElementById('a');
+	if(selectedanswer.innerText===qn[i].ans)
+		classtoapply= 'correct';
+	else
+		classtoapply= 'wrong';
+
+	document.getElementById('opt2').classList.add(classtoapply);
+}
+
+function checkanswer3() {
+	var selectedanswer = document.getElementById('a');
+	if(selectedanswer.innerText===qn[i].ans)
+		classtoapply= 'correct';
+	else
+		classtoapply= 'wrong';
+
+	document.getElementById('opt3').classList.add(classtoapply);
+}
+
+function checkanswer4() {
+	var selectedanswer = document.getElementById('a');
+	if(selectedanswer.innerText===qn[i].ans)
+		classtoapply= 'correct';
+	else
+		classtoapply= 'wrong';
+
+	document.getElementById('opt4').classList.add(classtoapply);
+}
+
+
+
+document.getElementById('opt1').addEventListener("click",checkanswer1);
+document.getElementById('opt2').addEventListener("click",checkanswer2);
+document.getElementById('opt3').addEventListener("click",checkanswer3);
+document.getElementById('opt4').addEventListener("click",checkanswer4);
+
+
+document.getElementById('opt1').classList.remove(classtoapply);
+document.getElementById('opt1').classList.remove(classtoapply);

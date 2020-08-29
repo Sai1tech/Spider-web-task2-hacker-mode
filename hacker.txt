@@ -1,0 +1,18 @@
+
+
+
+
+@media (min-width: 991px){
+    .qcontainer{
+        float: left;
+        width: 70%;
+    }
+
+    .sidenav{
+        float: right;
+        width: 27%;
+    }
+
+}
+
+qn.sort(function(a, b){return 0.5 - Math.random()});
